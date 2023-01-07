@@ -1,0 +1,44 @@
+/* GitHub @mohammadcoder82; */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.Prev {
+  width: 5%;
+  height: 100%;
+  background-color: #e8e8e8;
+  position:absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Img-box {
+  width: 90%;
+  height: 100%;
+  top: 0;
+  left: 5%;
+  position: relative;
+}
+.Img-box img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.Next {
+  width: 5%;
+  height: 100%;
+  background-color: #e8e8e8;
+  position:absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
